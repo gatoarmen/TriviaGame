@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Trivia-Game</title>
+</head>
+<body class="container">
+    
+
+<header>
+
+
+    
+
+<h1> TRIVIA</h1>
+
+</header>
+
+<main>
+
+    <!--- Show before game starts -->
+<div class="boton">
+<button type="button" class="btn btn-info">START GAME</button>
+</div>
+
+<!--- Show when game starts -->
+
+    <section class="game" >
+
+        <h2> Time is Runing!!!</h2>
+
+        <p class="timer"></p>
+
+        <div class="question">  What is the capital of Ecuador? </div>
+        
+           
+            <ul class="answers1">
+                <input type="radio" class="Inc" name="q1" value="false" id="q1a"><label for="q1a">Caracas</label>
+                <input type="radio" class="Inc" name="q1" value="false" id="q1b"><label for="q1b">Bogota</label>
+                <input type="radio" class="Cor" name="q1Ans" value="true" id="q1c"><label for="q1c">Quito</label>
+                <input type="radio" class="Inc" name="q1" value="false" id="q1d"><label for="q1d">Palermo</label>
+                </ul>
+
+
+        
+
+        <div class="question2"> Name the largest freshwater lake in the world? </div>
+        
+        <ul class="answers">
+            <input type="radio" class="Inc" name="q2" value="false" id="q2a"><label for="q2a">Great Slave Lake</label>
+            <input type="radio" class="Cor"name="q2Ans" value="true" id="q2b"><label for="q2b">Lake Superior</label>
+            <input type="radio" class="Inc" name="q2" value="false" id="q2c"><label for="q2c">Lake Malawi</label>
+            <input type="radio" class="Inc" name="q2" value="false" id="q2d"><label for="q2d">Lake Baikal </label>
+            </ul>
+   
+
+        <div class="question3"> When I was 6 years old my sister was half my age, now I'm 46. How old is my sister?</div>
+      
+        <ul class="answers">
+            <input type="radio" class="Inc" name="q3" value="false" id="q3a"><label for="q3a">3</label>
+            <input type="radio" class="Inc" name="q3" value="false" id="q3b"><label for="q3b">23</label>
+            <input type="radio" class="Inc" name="q3" value="false" id="q3c"><label for="q3c">92</label>
+            <input type="radio" class="Cor"name="q3Ans" value="true" id="q3d"><label for="q3d">43</label>
+            </ul>
+
+
+        <div class="question4"> What is the only manmade object that is observable from the moon?</div>
+       
+        <ul class="answers">
+            <input type="radio" class="Cor" name="q4Ans" value="true" id="q4a"><label for="q4a">The Great Wall</label>
+            <input type="radio" class="Inc" name="q4" value="false" id="q4b"><label for="q4b">Roman Coliseum</label>
+            <input type="radio" class="Inc" name="q4" value="false" id="q4c"><label for="q4c">Statue of Liberty</label>
+            <input type="radio" class="Inc" name="q4" value="false" id="q4d"><label for="q4d">Eiffel Tower</label>
+            </ul>
+
+    </section>
+
+
+    <!--- Show when game finishes -->
+    
+    <section class="final">
+
+        <h2>Done!!</h2>
+
+        Correct Aswers <p class="correct"></p>
+        Incorrect Answres  <p class="incorrect"></p>
+        Unanswered<p class="unanswered"></p>
+        
+
+    </section>
+
+
+</main>
+
+
+
+
+
+<script    src="https://code.jquery.com/jquery-3.3.1.min.js"    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="    crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js">   </script>    
+
+
+</body>
+</html>
